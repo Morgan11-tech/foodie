@@ -2,7 +2,6 @@ import React from "react";
 import { SlidingComponent } from "../Components/Carousel";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
-import { Carousel } from "flowbite-react";
 
 function Landingpage() {
   return (
