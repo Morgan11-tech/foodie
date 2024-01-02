@@ -8,7 +8,7 @@ function Landingpage() {
     <div>
       <Navbar />
       <main>
-        <div className="bg-[url('assets/foodiehero.png')] bg-no-repeat bg-cover h-screen flex flex-col justify-center lg:flex-row lg:justify-between items-center lg:px-32 px-5 gap-10 overflow-hidden">
+        <div className="bg-[url('/foodiehero.png')] bg-no-repeat bg-cover h-screen flex flex-col justify-center lg:flex-row lg:justify-between items-center lg:px-32 px-5 gap-10 overflow-hidden">
           <div className=" w-full lg:mt-0 grid justify-items-center">
             <h1 className="font-extrabold text-5xl text-center sm:text-6xl mb-5">
               Healthy Cooking Recipes <br /> and the right Nutrition.
@@ -61,7 +61,7 @@ function Landingpage() {
             <div className="max-w-xs rounded overflow-hidden shadow-lg">
               <img
                 className="h-52 w-full object-cover"
-                src="assets/unsplash_r01ZopTiEV8.png"
+                src="/unsplash_r01ZopTiEV8.png"
                 alt=""
               />
               <div className="py-6 px-4">
@@ -74,7 +74,7 @@ function Landingpage() {
             <div className="max-w-xs rounded overflow-hidden shadow-lg">
               <img
                 className="h-52 w-full object-cover"
-                src="assets/unsplash_fdlZBWIP0aM.png"
+                src="/unsplash_fdlZBWIP0aM.png"
                 alt=""
               />
               <div className="py-6 px-4">
@@ -89,7 +89,7 @@ function Landingpage() {
             <div className="max-w-xs rounded overflow-hidden shadow-lg">
               <img
                 className="h-52 w-full object-cover"
-                src="assets/unsplash_zcUgjyqEwe8.png"
+                src="/unsplash_zcUgjyqEwe8.png"
                 alt=""
               />
               <div className="py-6 px-4">
