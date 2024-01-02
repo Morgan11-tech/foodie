@@ -63,6 +63,7 @@ function Landingpage() {
                 className="h-52 w-full object-cover"
                 src="/unsplash_r01ZopTiEV8.png"
                 alt=""
+                loading="lazy"
               />
               <div className="py-6 px-4">
                 <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
@@ -76,6 +77,7 @@ function Landingpage() {
                 className="h-52 w-full object-cover"
                 src="/unsplash_fdlZBWIP0aM.png"
                 alt=""
+                loading="lazy"
               />
               <div className="py-6 px-4">
                 <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
@@ -91,6 +93,7 @@ function Landingpage() {
                 className="h-52 w-full object-cover"
                 src="/unsplash_zcUgjyqEwe8.png"
                 alt=""
+                loading="lazy"
               />
               <div className="py-6 px-4">
                 <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
