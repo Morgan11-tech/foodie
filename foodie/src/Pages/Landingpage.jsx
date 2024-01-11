@@ -12,16 +12,19 @@ function Landingpage() {
       <main>
         <div className="bg-[url('/foodiehero.png')] bg-no-repeat bg-cover h-screen flex flex-col justify-center lg:flex-row lg:justify-between items-center lg:px-32 px-5 gap-10 overflow-hidden">
           <div className=" w-full lg:mt-0 grid justify-items-center">
-            <h1 className="font-extrabold text-5xl text-center sm:text-6xl mb-5">
+            <h1 className="font-extrabold text-5xl text-center sm:text-6xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] text-cyan-200 mb-5 lg:text-black lg:drop-shadow-none">
               Healthy Cooking Recipes <br /> and the right Nutrition.
             </h1>
             <p className="font-light text-md text-center sm:text-xl mb-2">
+              We have all kinds of awesome recipes for you to try out
+            </p>
+            {/* <p className="font-light text-md text-center sm:text-xl mb-2">
               Browse through thousands of our Tasty Recipes
             </p>
 
             <button className="rounded-tl-lg bg-green-600 text-white text-center px-3 py-2 hover:bg-green-500 mb-10">
               Browse all our recipies
-            </button>
+            </button> */}
 
             <div className="relative inline-block bg-white rounded-full p-2">
               <div

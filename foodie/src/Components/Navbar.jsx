@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <span className="text-3xl text-gray-900 font-bold">Foodie!</span>
-          <div className="hidden sm:flex space-x-4 text-grey-900">
+          {/* <div className="hidden sm:flex space-x-4 text-grey-900">
             <a
               href="#"
               className="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
@@ -26,8 +26,8 @@ const Navbar = () => {
             >
               Contact
             </a>
-          </div>
-          <div className="sm:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+          </div> */}
+          {/* <div className="sm:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -42,7 +42,7 @@ const Navbar = () => {
                 d="M4 6h16M4 12h16M4 18h16"
               />
             </svg>
-          </div>
+          </div> */}
         </div>
       </div>
 
